@@ -3,7 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Survey Referral Links</title>
+<title>Hello Viewers!</title>
+
+<script>
+    const surveyLinks = {
+        site1: "https://example.com/ref1",
+        site2: "https://example.com/ref2",
+        site3: "https://example.com/ref3",
+        site4: "https://example.com/ref4",
+        site5: "https://example.com/ref5"
+    };
+
+    // Opens links in the SAME tab
+    function openLink(key) {
+        window.location.href = surveyLinks[key];
+    }
+</script>
 
 <style>
     body {
@@ -83,12 +98,14 @@
 
 <body>
 
-<h1>Earn Money Online With Surveys</h1>
+<h1>Hello viewers! Let's make money online with surveys</h1>
 
 <div class="intro">
-    Many people earn extra income by completing surveys online. These sites are *free to join*, 
-    available worldwide, and reward users with cash, gift cards, or points you can redeem. 
-    Here are some recommended sites to get started:
+    To my YouTube viewers, welcome! 
+    <br>
+    Many people including myself earn money by completing online surveys about our everyday lives. 
+    The sites below are free to join. I personally use them, and can confirm that they pay out. 
+    I usually choose PayPal cashout, but they also have other options including virtual credit cards, gift cards, and cryptocurrency.
 </div>
 
 <div class="container">
@@ -122,22 +139,6 @@
         <button class="btn" onclick="openLink('site5')">Visit Site</button>
     </div>
 </div>
-
-<script>
-    // Your actual referral links
-    const surveyLinks = {
-        site1: "https://example.com/ref1",
-        site2: "https://example.com/ref2",
-        site3: "https://example.com/ref3",
-        site4: "https://example.com/ref4",
-        site5: "https://example.com/ref5"
-    };
-
-    // Opens links in the SAME tab now
-    function openLink(key) {
-        window.location.href = surveyLinks[key];
-    }
-</script>
 
 </body>
 </html>
